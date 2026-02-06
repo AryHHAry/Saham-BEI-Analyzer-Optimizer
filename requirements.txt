@@ -1,0 +1,14 @@
+streamlit>=1.35.0
+numpy>=1.26.4
+pandas>=2.2.2
+matplotlib>=3.8.0
+PuLP==2.9.0
+yfinance>=0.2.40
+# TA-Lib removed due to Streamlit Cloud C-library dependency issues. Fallback implemented in trading_engine.py.
+statsmodels>=0.14.0
+codecarbon>=2.3.0
+fpdf2>=2.7.0
+Pillow>=10.2.0
+openpyxl>=3.1.0
+scikit-learn>=1.4.0
+requests>=2.31.0

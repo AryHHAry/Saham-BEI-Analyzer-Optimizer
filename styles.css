@@ -1,0 +1,102 @@
+/* Saham BEI Analyzer Optimizer - Custom Styles */
+
+/* Main Container Padding */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Header Styling */
+h1 {
+    color: #1f77b4;
+    font-weight: 700;
+}
+
+h2,
+h3 {
+    color: #262730;
+    margin-top: 1.5rem;
+}
+
+/* Sidebar Customization */
+[data-testid="stSidebar"] {
+    background-color: #000000;
+    border-right: 1px solid #000000;
+}
+
+/* Metric Cards Refinement */
+[data-testid="stMetricValue"] {
+    font-size: 1.8rem;
+    color: #1f77b4;
+}
+
+[data-testid="stMetricDelta"] {
+    font-weight: 600;
+}
+
+/* Button Styling */
+.stButton>button {
+    width: 100%;
+    border-radius: 5px;
+    height: 3em;
+    background-color: #1f77b4;
+    color: white;
+    font-weight: bold;
+}
+
+.stButton>button:hover {
+    background-color: #155a8a;
+    border-color: #155a8a;
+}
+
+/* Tabs Styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 2rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 3rem;
+    white-space: pre-wrap;
+    background-color: #f0f2f6;
+    border-radius: 4px 4px 0px 0px;
+    gap: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Warning Box */
+.stAlert {
+    border-left: 5px solid #ff4b4b;
+}
+
+/* Custom Icon Helper Classes */
+.risk-low {
+    color: #2ca02c;
+}
+
+.risk-med {
+    color: #ffbf00;
+}
+
+.risk-high {
+    color: #d62728;
+}
+
+/* Disclaimer/Vision Section */
+.vision-box {
+    background-color: #234567;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid #b3d7ff;
+    margin-bottom: 2rem;
+}
+
+.disclaimer-box {
+    background-color: #234567;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #f8d7da;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #721c24;
+}
